@@ -1,1 +1,41 @@
 @charset "UTF-8";
+
+/* tag 
+.table 全体
+.thead 上部分
+.tbody 左部分
+.tr セル
+.th 見出し
+.td 中身
+*/
+
+.table-c {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.table-c th {
+  line-height: 26px;
+  background: #319c4a;
+}
+.table-c td{
+  line-height: 22px;
+}
+.table-c th,.table-c td {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.table-c tr {
+  background: #d5ffc7;
+}
+.table-c tr:nth-child(2n) {
+  background: #bcbcbc;
+}
+.table-c tr:last-child {
+  border-top: 1px double rgb(255,255,255);
+}

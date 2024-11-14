@@ -1,2 +1,78 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+/* Q1-1 text-align */
+.q1--horizontality {
+  display: flex;
+}
+.white--box1 {
+  background: #fff;
+  width: 200px;
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+.text-align {
+  display: inline-block;
+  background: #a4b3e9;
+  padding: 10px;
+}
+
+/* Q1-1 margin */
+.white--box2 {
+  background: #fff;
+  width: 200px;
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+}
+.text-margin {
+  display: inline-block;
+  background: #a4b3e9;
+  padding: 10px;
+  width: 90px;
+}
+
+/* Q1-2 table */
+.table {
+  display: table;
+}
+.cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-table {
+  display: inline-block;
+  background: #fff;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Q1-2 flex */
+.flex {
+  display: flex;
+  align-items: center; /* flex */ 
+  justify-content: center; /* flex */
+}
+.text-flex {
+  background: #fff;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Q1-2 potision */
+.container {
+  position: relative;
+}
+.text-position {
+  background: #a4b3e9;
+  padding: 10px;
+  font-size: 16px; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* padding: 10px; */
+  position: absolute;
+}

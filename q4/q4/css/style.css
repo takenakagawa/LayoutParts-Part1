@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 .box {
-  display: flex;
-  width: 100px;
+  display: table;
+  width: 100%;
   text-align: center;
   margin-bottom: 50px;
 }
-.box div {
+.box > div {
   display: table-cell;
   padding: 20px;
 }
